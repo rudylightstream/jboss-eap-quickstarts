@@ -27,7 +27,7 @@
          <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://172.30.226.105:5432/sampledb" />
          <property name="javax.persistence.jdbc.user" value="userO03"/>
          <property name="javax.persistence.jdbc.password" value="juSMaqPSADBDyeSy"/>
-         <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+         <property name="hibernate.hbm2ddl.auto" value="create"/>
          <property name="hibernate.show_sql" value="false"/>
       </properties>
    </persistence-unit>
