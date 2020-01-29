@@ -148,7 +148,14 @@
             <artifactId>jboss-jaxb-api_2.3_spec</artifactId>
             <scope>provided</scope>
         </dependency>
-
+        
+        <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+        <dependency>
+        	<groupId>postgresql</groupId>
+        	<artifactId>postgresql</artifactId>
+        	<version>9.1-901-1.jdbc4</version>
+       	</dependency>
+        
     </dependencies>
 
     <build>
