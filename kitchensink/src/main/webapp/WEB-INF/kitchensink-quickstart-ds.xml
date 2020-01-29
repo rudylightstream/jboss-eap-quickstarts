@@ -28,7 +28,7 @@
         pool-name="kitchensink-quickstart" enabled="true"
         use-java-context="true">
         <connection-url>jdbc:postgresql://172.30.148.106:5432/sampledb</connection-url>
-        <driver-class>org.postgresql.Driver</driver-class>
+        <driver>org.postgresql.Driver</driver>
         <security>
             <user-name>user</user-name>
             <password>password</password>
