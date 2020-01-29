@@ -20,6 +20,7 @@
         http://xmlns.jcp.org/xml/ns/persistence
         http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
    <persistence-unit name="primary" transaction-type="RESOURCE_LOCAL">
+   <class>org.jboss.as.quickstarts.kitchensink.model.Member</class>
       <properties>
          <!-- Properties for Hibernate -->
          <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
