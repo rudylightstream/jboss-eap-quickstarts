@@ -16,12 +16,12 @@
  */
 package org.jboss.as.quickstarts.kitchensink.service;
 
-import org.jboss.as.quickstarts.kitchensink.model.Member;
-
 import javax.ejb.Stateless;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+
+import org.jboss.as.quickstarts.kitchensink.model.Member;
 
 import java.util.logging.Logger;
 
