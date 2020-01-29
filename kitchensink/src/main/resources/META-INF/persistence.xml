@@ -23,7 +23,7 @@
       <properties>
          <!-- Properties for Hibernate -->
          <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-         <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://172.30.226.105/sampledb" />
+         <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://postgresql-abeam-test-1.apps.endeavour-poc.endeavour-poc.ai/sampledb" />
          <property name="javax.persistence.jdbc.user" value="userO03"/>
          <property name="javax.persistence.jdbc.password" value="juSMaqPSADBDyeSy"/>
          <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
