@@ -22,6 +22,8 @@ import javax.ejb.Stateless;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+
+import java.net.InetAddress;
 import java.util.logging.Logger;
 
 // The @Stateless annotation eliminates the need for manual transaction demarcation
@@ -39,6 +41,13 @@ public class MemberRegistration {
 
     public void register(Member member) throws Exception {
         log.info("Registering " + member.getName());
+        InetAddress ia = InetAddress.getByName("172.30.226.105");
+        if(ia.isReachable(5000)) {
+        log.info("db is up");
+        }
+        else {
+        log.info("db is down");
+        }
         em.persist(member);
         memberEventSrc.fire(member);
     }
